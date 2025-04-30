@@ -1,0 +1,17 @@
+server:
+  port: 3021
+
+spring:
+  security:
+    user:
+      name: Hasnain
+      password: hasnain
+  application:
+    name: eureka-gatekeeper
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+
